@@ -43,28 +43,85 @@ ul li {
     margin: 10px 5px 5px 10px;
 }
 
+ul li a {
+    text-decoration: none;
+}
+
 .simulator {
     background: var(--color-section);
     min-width: 300px;
     min-height: 500px;
     max-width: 80%;
     margin: 0 10%;
+    padding: 50px 50px;
 }
 
-.selector-save {}
+.selector-save {
+
+    display: flex;
+    justify-content: space-between;
+}
 
 .slcSintoma {
     background-color: var(--color-background);
     border: 1px solid var(--color-secondary);
     border-radius: 5px;
-    width: 150px;
-    height: 40px;
-    margin: 50px 0 30px 10px;
+    width: 250px;
+    height: 50px;
+    margin-right: 10px;
+    /* margin: 50px 0 30px 10px; */
 }
 
 .button {
     background-color: #47525E;
     border-radius: 5px;
-    width: 150px;
-    height: 40px;
+    width: 200px;
+    height: 50px;
+    /* margin: 50px 10px 30px 10px; */
+}
+
+.panel-results {
+    background: var(--color-background);
+    margin-top: 50px;
+}
+
+.option-panel {
+    background: var(--color-background);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    height: 100px;
+}
+
+.option-button {
+    background: var(--color-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-button h1 {
+    color: #ffffff;
+}
+
+.panel-result {
+    margin: 50px;
+}
+
+.panel-result p {
+    margin: 20px;
+}
+
+.panel-result .map {
+    background: var(--color-primary);
+    height: 400px;
+    margin: 20px;
+}
+
+/* Active button */
+#btnActive {
+    background: #ffffff;
+}
+
+#btnActive h1{
+    color: var(--color-primary);
 }
