@@ -5,51 +5,8 @@
     --color-background: #ffffff;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: var(--color-background);
-}
-
-header {
-    width: 100%;
-    height: 82.5;
-    background: var(--color-background);
-    display: flex;
-    justify-content: space-around;
-}
-
-.logo {
-    color: var(--color-primary);
-    font-family: Berkshire Swash;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 50px;
-    padding-top: 10px;
-    text-align: center;
-    margin: 5px;
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-ul li {
-    text-decoration: none;
-    list-style: none;
-    margin: 10px 5px 5px 10px;
-}
-
-ul li a {
-    text-decoration: none;
-}
-
 .simulator {
     background: var(--color-section);
-    min-width: 300px;
     min-height: 500px;
     max-width: 80%;
     margin: 0 10%;
@@ -57,7 +14,6 @@ ul li a {
 }
 
 .selector-save {
-
     display: flex;
     justify-content: space-between;
 }
@@ -69,15 +25,18 @@ ul li a {
     width: 250px;
     height: 50px;
     margin-right: 10px;
-    /* margin: 50px 0 30px 10px; */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 13px 20px 13px 12px;
 }
 
 .button {
-    background-color: #47525E;
+    background-color: var(--color-primary);
+    color: #fff;
     border-radius: 5px;
     width: 200px;
     height: 50px;
-    /* margin: 50px 10px 30px 10px; */
 }
 
 .panel-results {
@@ -122,6 +81,6 @@ ul li a {
     background: #ffffff;
 }
 
-#btnActive h1{
+#btnActive h1 {
     color: var(--color-primary);
 }
