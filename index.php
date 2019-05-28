@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <title>Marvel</title>
 
-    <script src="./js/simulator.js"></script>
+    <script src="./view/js/simulator.js"></script>
 
-    <link rel="stylesheet" href="./style/index.css">
-    <link rel="stylesheet" href="./style/simulator.css">
+    <link rel="stylesheet" href="./view/style/index.css">
+    <link rel="stylesheet" href="./view/style/simulator.css">
 </head>
 
 <body>
