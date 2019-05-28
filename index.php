@@ -27,7 +27,7 @@
         </div>
     </header>
     <div class="simulator">
-        <form action="./controller/saudeController.php" method="post">
+        <form action="controller/saudeController.php" method="post">
             <div class="selector-save">
                 <select name="slcSintoma1" id="slcSintoma1" class="slcSintoma">
                     <option value=""></option>
