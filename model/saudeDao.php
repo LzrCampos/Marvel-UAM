@@ -53,7 +53,7 @@ class saudeDao
         . "<div class='option-panel'>"
         . "<div class='option-button btnActive' id='btnActive'>";
         //while ($linha = $consultar->fetch(PDO::FETCH_ASSOC)) {
-        echo "<h1>{$linha['Nome']}</h1>"
+        echo "<h1>{'linha'['Nome']}</h1>"
         . "</div>"
         . "<div class='option-button'>"
         . "<h1>Doença</h1>"
@@ -71,13 +71,13 @@ class saudeDao
         . "<div class='panel-result'>"
         . "<div class='panel-desc'>"
         . "<h2>Descrição</h2>"
-        . "<p>{$linha['Descricao']}</p>"
+        . "<p>{'linha'['Descricao']}</p>"
         . "</div>"
         . "<div class='panel-prec'>"
         . "<h2>Precauções</h2>"
-        . "<p>{$linha['Precaucao']}</p>"
+        . "<p>{'linha'['Precaucao']}</p>"
         . "</div>";
-        }
+        // }
         echo "<div class='panel-espe'>"
         . "<h2>Especialistas</h2>"
         . "<div class='map'>"
