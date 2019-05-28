@@ -4,8 +4,7 @@
     $btnBuscar = $_POST['buscar'];
     $doenca = new saudeDao();
 
-
-    if ($btnBuscar == "Listar") {
-        $doenca->listar($_POST['id']);
+    if ($btnBuscar == "buscar") {
+        $doenca->listar($_POST['slcSintoma1'], $_POST['slcSintoma2'], $_POST['slcSintoma3']);
     }
 ?>

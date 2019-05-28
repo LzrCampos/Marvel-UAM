@@ -27,21 +27,20 @@
         </div>
     </header>
     <div class="simulator">
-        <div class="selector-save">
-            <select name="slcSintoma1" id="slcSintoma1" class="slcSintoma">
-                <option value=""></option>
-                <option value="dorDeCabeca">Dor de cabeça</option>
-            </select>
-            <select name="slcSintoma2" id="slcSintoma2" class="slcSintoma">
-                <option value=""></option>
-                <option value="dorDeCabeca">Dor de cabeça</option>
-            </select>
-            <select name="slcSintoma3" id="slcSintoma3" class="slcSintoma">
-                <option value=""></option>
-                <option value="dorDeCabeca">Dor de cabeça</option>
-            </select>
-            <button class="button" type="submit">Pesquisar</button>
-        </div>
+        <form action="../controller/saudeController.php" method="post">
+            <div class="selector-save">
+                <select name="slcSintoma1" id="slcSintoma1" class="slcSintoma">
+                    <option value=""></option>
+                </select>
+                <select name="slcSintoma2" id="slcSintoma2" class="slcSintoma">
+                    <option value=""></option>
+                </select>
+                <select name="slcSintoma3" id="slcSintoma3" class="slcSintoma">
+                    <option value=""></option>
+                </select>
+                <button class="button" type="submit" name="buscar" value="buscar">Buscar</button>
+            </div>
+        </form>
         <div class="panel-results">
             <div class="option-panel">
                 <div class="option-button btnActive" id="btnActive">
@@ -61,6 +60,9 @@
                 </div>
             </div>
             <div class="panel-result">
+                <?php
+                
+                ?>
                 <div class="panel-desc">
                     <h2>Descrição</h2>
                     <p>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
