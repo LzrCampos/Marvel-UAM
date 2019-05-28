@@ -2,10 +2,10 @@
 class saudeDao
 {
     function listar($id) {
-        $conn = new PDO('mysql:host=localhost;dbname=Marvel','root', '');
-        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        //$conn = new PDO('mysql:host=localhost;dbname=Marvel','root', '');
+        //$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $consultar = $conn->query("select * from doenca;");
+        //$consultar = $conn->query("select * from doenca;");
         // while ($linha = $consultar->fetch(PDO::FETCH_ASSOC)) {
         //     echo "<html> <body><br>Nome: {$linha['Nome']} <br>"
         //     . "Descricao: {$linha['Descricao']}<br>"
@@ -52,7 +52,7 @@ class saudeDao
         . "<div class='panel-results'>"
         . "<div class='option-panel'>"
         . "<div class='option-button btnActive' id='btnActive'>";
-        while ($linha = $consultar->fetch(PDO::FETCH_ASSOC)) {
+        //while ($linha = $consultar->fetch(PDO::FETCH_ASSOC)) {
         echo "<h1>{$linha['Nome']}</h1>"
         . "</div>"
         . "<div class='option-button'>"
