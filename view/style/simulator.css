@@ -46,7 +46,7 @@
 
 .option-panel {
     background: var(--color-background);
-    display: grid;
+    display: flex;
     grid-template-columns: 20% 20% 20% 20% 20%;
     height: 100px;
 }
